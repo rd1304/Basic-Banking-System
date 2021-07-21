@@ -1,0 +1,151 @@
+*{
+	margin:0;
+	padding:0;
+}
+body
+{
+	font-family:sans-serif;
+}
+#nav-bar
+{
+	background-color:rgb(255, 255, 255);
+	position: sticky;
+	top:0;
+	z-index:10;
+	float: right;
+}
+.nav-link:hover{
+    background-color:rgb(92, 100, 179);
+	text-decoration: underline;
+}
+.navbar
+{
+
+    padding: 0 !important;
+}
+navbar-brand img
+{
+	height:40px;
+	padding-left:20px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+color:rgb(66, 209, 228);!important;
+font-weight:600;
+float:right;
+text-align:left;
+}
+.fa-bars
+{
+	color:#fff;
+	font-size:40p !important;
+}
+.navbar-toggler
+{
+	outline:none !important;
+}
+/*---banner section--*/
+#main
+{
+text-align: center;
+/*background-color:rgb(255, 255, 255);*/
+background-image: url("about.jpeg");
+color:rgb(0, 0, 0);
+padding-top:5%;
+}
+.container h1 img{
+	padding-bottom: 5px;
+}
+
+
+/*---service section---*/
+#features1
+{
+	text-align: center;
+	padding: 10% 20%;
+}
+ #features
+ {
+     text-align: center;
+	 padding: 10% 10%; background-image: url("b.jpg");
+ }
+ .features1 h3
+{
+	padding:5px;
+	margin-top:15px;
+	text-transform:uppercase;
+}
+
+.features h3
+{
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+.title::before
+{
+	content:'';
+	background:#042a55;
+	height:10px;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform:translatey(63px);
+}
+.title::after
+{
+	content:'';
+	background:#07346e;
+	height:10px;
+	width:50px;
+	margin-left:auto;
+	margin-right:auto;
+    margin-bottom:40px;
+    display: block;
+	transform:translatey(8px);
+}
+#features .btn-primary
+{
+	box-shadow:none;
+	padding:5px 5px;
+	border:none;
+	align-content: center;
+	background-image:linear-gradient(to right,#000000,#000000)
+}
+/* Action*/
+  #action{
+    /*background-color:rgb(224, 176, 86);*/
+    background-image: url("about.jpeg");
+    padding: 10% 15%;
+    text-align: center;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+  }
+  .main{
+    font-size: 2rem;
+    line-height: 1.5;
+    padding: 10px 0px;
+	
+  }
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* footer */
+#footer{
+	/*background-color:rgb(255, 255, 255);*/
+    background-image: url("about.jpeg");
+    color:rgb(0, 0, 0);
+    padding: 5% 15%;
+    text-align: center;
+}
